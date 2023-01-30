@@ -1,0 +1,22 @@
+{
+  "name": "comp426-web-server",
+  "version": "1.0.0",
+  "description": "This is a Web Server for A01 COMP 426",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js --port=5555"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2023-spring/a01-sheelpatel18.git"
+  },
+  "author": "sheelpatel18",
+  "license": "GNU GPL V3.0",
+  "bugs": {
+    "url": "https://github.com/comp426-2023-spring/a01-sheelpatel18/issues"
+  },
+  "homepage": "https://github.com/comp426-2023-spring/a01-sheelpatel18#readme",
+  "dependencies": {
+    "minimist": "^1.2.7"
+  }
+}
