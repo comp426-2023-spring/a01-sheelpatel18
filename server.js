@@ -11,12 +11,14 @@ fs.readFile('./public/index.html', (err, data) => {
         return;
     }
 
-    http.createServer((req, res) => {
+    const server = http.createServer((req, res) => {
         res.statusCode = 200;
         // content type as html
         res.setHeader('Content-Type', 'text/html');
         res.end(data);
-    }).listen(port, () => {
+    })
+
+    server.listen(port, () => {
         console.log(`Server running at port ${port}`);
     })
 
